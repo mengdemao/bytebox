@@ -1,0 +1,25 @@
+subdir-ccflags-y = -I$(src)/include
+
+obj-m += hello/
+obj-m += param/
+obj-m += alloc/
+obj-m += slab/
+obj-m += chrdev/
+obj-m += platform/
+obj-m += mapping/
+obj-m += misc/
+obj-m += proc/
+obj-m += kobject/
+obj-m += interrupt/
+obj-m += timer/
+obj-m += poll/
+obj-m += wait/
+obj-m += async/
+obj-m += input/
+obj-m += rtc/
+obj-m += framebuffer/
+obj-m += tty/
+obj-m += spi/
+obj-m += block/
+obj-m += net/
+obj-m += pm/

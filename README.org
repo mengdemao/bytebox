@@ -1,0 +1,39 @@
+#+TITLE:模拟Linux
+
+* 工程操作
+** 全部编译
+#+begin_src shell
+./build.sh all
+#+end_src
+
+** 打包镜像
+#+begin_src shell
+./build.sh img
+#+end_src
+
+** 仿真
+#+begin_src shell
+./build.sh debug
+#+end_src
+
+** 运行
+#+begin_src shell
+./build.sh run
+#+end_src
+
+** 挂载共享目录
+#+begin_src shell
+mount -t 9p -o trans=virtio,version=9p2000.L kmod_mount /mnt
+#+end_src
+
+* 目录分析
+#+begin_src txt
+├── build.sh		编译脚本
+├── kernel			kernel
+├── kmodule			驱动模块
+├── README.org		说明文档
+├── rootfs			根文件系统
+├── script			脚本
+├── submodule.sh	更新git仓库
+└── update.sh		更新git仓库
+#+end_src

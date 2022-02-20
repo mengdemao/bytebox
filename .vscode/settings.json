@@ -1,0 +1,12 @@
+{
+	"files.associations": {
+		"interrupt.h": "c",
+		"*.x": "c",
+		"input.h": "c",
+		"page_idle.h": "c",
+		"kversion.h": "c",
+		"module.h": "c",
+		"types.h": "c",
+		"*.h.in": "cpp"
+	}
+}

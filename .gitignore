@@ -1,0 +1,10 @@
+crosstool
+opengrok
+GPATH
+GRTAGS
+GTAGS
+*.ext4
+.cproject
+.project
+.settings/
+

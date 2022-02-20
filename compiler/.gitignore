@@ -1,0 +1,6 @@
+*.config
+*.old
+*.log
+.build
+aarch64-bytebox-linux-gnu
+arm-bytebox-linux-gnueabihf

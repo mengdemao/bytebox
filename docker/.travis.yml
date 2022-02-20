@@ -1,0 +1,21 @@
+language: bash
+
+dist: focal
+
+services:
+    - docker
+
+before_script:
+    - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+
+script:
+    - docker build -t mengdemao/bytebox_docker .
+
+after_success:
+    - echo "Docker Build Success"
+
+deploy:
+  provider: script
+  script: docker push mengdemao/bytebox_docker:latest
+  on:
+    tags: true

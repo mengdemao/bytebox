@@ -1,0 +1,34 @@
+/**
+ * @file kversion.h
+ * @author %COMMIT_USER% (COMMIT_MAIL)
+ * @version %REVISION_GIT%
+ * 
+ * @date %COMPILE_DATE%
+ * @time %COMPILE_TIME%
+ * 
+ * @brief 本文件脚本自动生成,不要手动修改.
+ * 
+ * 
+ */
+#ifndef __KVERSION_H__
+#define __KVERSION_H__
+
+#define REVISION_GIT	"%REVISION_GIT%"
+#define REVISION_TAG	"%REVISION_TAG%"
+
+#define COMMIT_DATE     "%COMMIT_DATE%"
+#define COMMIT_TIME     "%COMMIT_TIME%"
+#define COMMIT_MAIL	"%COMMIT_MAIL%"
+#define COMMIT_USER     "%COMMIT_USER%"
+
+#define COMPILE_MAIL	"%COMPILE_MAIL%"
+#define COMPILE_USER    "%COMPILE_USER%"
+#define COMPILE_HOST    "%COMPILE_HOST%"
+#define COMPILE_DATE    "%COMPILE_DATE%"
+#define COMPILE_TIME    "%COMPILE_TIME%"
+
+#define KMODULE_VERSION "%REVISION_TAG%-%REVISION_GIT%"
+#define KMODULE_AUTHOR  "%COMPILE_USER%@%COMPILE_HOST%"
+#define KMODULE_LICENSE "GPL v2"
+
+#endif /* __KVERSION_H__ */
